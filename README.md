@@ -4,7 +4,7 @@ A simple helper type alias for std::unique_ptr and custom deleter for using pimp
 
 ## Usage
 *impl.hpp*  
-```
+```C++
 #include <pimpl.hpp>
 
 class Impl
@@ -19,7 +19,7 @@ private:
 ```
 *impl.cpp*  
 
-```
+```C++
 #include "impl.hpp"
 ...
 
